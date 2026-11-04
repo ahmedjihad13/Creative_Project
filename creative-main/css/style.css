@@ -1,0 +1,256 @@
+
+/* all common css start here */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* all common css end here */
+
+/* css navbar part start here */
+#navbar{
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 50px;
+}
+
+.menu ul li a{
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu ul li a:hover{
+    color: #5956E8;
+    transition: 0.3s;
+}
+
+.btn a{
+    color: #FFFFFF;
+    background-color: #5956E8;
+    padding: 13px 23px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn a:hover{
+background-color: #e4dede;
+color: #5956E8;
+transition: 0.3s;
+}
+
+
+/* css navbar part end here */
+
+/* banner part start here */
+
+#banner_part{
+    background-color: #5956E8;
+    padding: 181px;
+}
+
+.banner_wrapper{
+    display: flex;
+}
+.banner_content h1{
+    width: 501px;
+    font-size: 65px;
+    font-weight: 700;
+     margin-top: 70px;
+     color: #FFFEFE;
+}
+.banner_content p{
+    font-size: 18px;
+    width: 610px;
+    font-weight: 500;
+    margin-top: 25px;
+   
+    margin-right: 20px;
+    color: #c0b8b8;
+}
+
+.banner_content button {
+   
+    border-style: none;
+
+    padding: 13px 24px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+
+.banner_content a{
+    color: #5956E8;
+   font-weight: 500;
+}
+
+
+/* banner part end here */
+
+/* services sectin start here */
+#services_secton{
+    background-color: #FFFFFF;
+    padding: 100px;
+}
+.services_content{
+    text-align: center;
+    margin: 0 auto;
+    width: 542px;
+}
+.services_content h3{
+   
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.services_content p{
+    font-size: 16px;
+    width: 542px;
+    color: #686565;
+    margin-top: 20px;
+}
+.services_card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card_one{
+    margin-top: 35px;
+    border: 1px solid#efecec;
+    padding: 63px 48px;
+    width: 250px;
+    border-radius: 15px;
+}
+.card_one h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.card_one p{
+    font-size: 16px;
+    width: 274px;
+    margin-top: 20px;
+    color: #c0b8b8;
+}
+.card_one:hover{
+    background-color: #fff;
+   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.56);
+    transition: 0.3s;
+    
+}
+.hover_one:hover{
+    fill: #5956E8;
+    color: #5956E8;
+    stroke: #fff;
+    transition: 0.3s;
+}
+
+/* services sectin end here */
+
+
+/* portfolio section css start here */
+#portfolio_section{
+ padding:50px 0;
+}
+
+
+.fortfolio_content{
+    text-align: center;
+    margin: 0 auto;
+    width: 542px;
+}
+.fortfolio_content h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+   
+}
+
+.fortfolio_content p{
+    font-size: 16px;
+    line-height: 27px;
+    color: #747070;
+    font-weight: 400;
+    width: 542px;
+    margin-top: 20px;
+}
+
+.portfolio_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.portfolio_item{
+    width: 255px;
+    height: 319px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio_item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.portfolio_overlay{
+    text-align: center;
+   
+  
+    color: #fff;
+
+}
+.portfolio_overlay h5{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.portfolio_overlay p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.portfolio_overlay{
+width: 230px;
+height: 100px;
+background-color:#5956E8;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: 15px;
+opacity: 0;
+transition: all linear 0.3s;
+border-radius: 10px;
+
+}
+
+.portfolio_item:hover .portfolio_overlay{
+    opacity: 1;
+    /* bottom:20px; */
+}
+
+/* portfolio section css end here */
